@@ -1,0 +1,61 @@
+.custom-select {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.selected-option {
+    font-size: 16px;
+}
+
+.options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.option {
+    padding: 10px;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.custom-select:focus-within .options {
+    display: block;
+}
+
+.custom-input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+.custom-button:active {
+    background-color: #003d80;
+}
